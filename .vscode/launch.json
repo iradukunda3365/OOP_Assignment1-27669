@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run TAMS (Main)",
+            "request": "launch",
+            "mainClass": "com.auca.main.Main",
+            "console": "integratedTerminal"
+        }
+    ]
+}
