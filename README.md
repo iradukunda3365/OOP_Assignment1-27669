@@ -1,4 +1,4 @@
-# Tax Administration Management System (TAMS)
+# AUCA_27669: Tax Administration Management System (TAMS)
 
 Java OOP practical assignment: a console application that registers taxpayers and revenue officers, manages tax types and obligations, receives declarations, creates assessments, records payments, calculates penalties, processes refunds and issues tax-clearance decisions.
 
@@ -8,7 +8,7 @@ All rates, deadlines and amounts are fictional and for teaching only.
 
 In VS Code, open this folder and press **F5**.
 
-From a terminal:
+From a terminal, inside this folder:
 
 ```
 javac -d out $(find src -name "*.java")
@@ -22,7 +22,7 @@ javac -d out (Get-ChildItem -Recurse src -Filter *.java).FullName
 java -cp out com.auca.main.Main
 ```
 
-## Structure
+## Structure (inside `src`)
 
 - `com.auca.interfaces`: `Identifiable`, `Validatable`
 - `com.auca.abstracts`: `TaxParty`, `RegisteredTaxpayer`
